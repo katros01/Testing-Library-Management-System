@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="421.0" prefWidth="660.0" style="-fx-background-color: #14242D;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.lms_project.controllers.ReservationsPageController">
+   <children>
+      <Text fill="#b5b0b0" layoutX="14.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reservations" wrappingWidth="167.13671875">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <TableView fx:id="reservationsTable" layoutX="28.0" layoutY="173.0" prefHeight="200.0" prefWidth="604.0">
+         <columns>
+            <TableColumn fx:id="idCol" prefWidth="52.0" text="Id" />
+            <TableColumn fx:id="nameCol" prefWidth="112.0" text="Name" />
+            <TableColumn fx:id="bookCol" prefWidth="85.0" text="Book" />
+            <TableColumn fx:id="dateCol" prefWidth="87.0" text="Date" />
+            <TableColumn fx:id="reservationCol" prefWidth="90.0" text="Pick Up Date" />
+            <TableColumn fx:id="returnDateCol" minWidth="0.0" prefWidth="94.0" text="Return Date" />
+            <TableColumn fx:id="statusCol" prefWidth="86.0" text="Status" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

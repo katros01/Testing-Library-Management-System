@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.lms_project.controllers.LandingFXMLController">
+   <children>
+      <Button fx:id="patron" layoutX="240.0" layoutY="277.0" mnemonicParsing="false" onAction="#openPatronPanel" prefHeight="30.0" prefWidth="109.0" text="Patron" />
+      <Button fx:id="liabrarian" layoutX="576.0" layoutY="277.0" mnemonicParsing="false" onAction="#openLibrarianPanel" prefHeight="30.0" prefWidth="99.0" text="Librarian" />
+      <Label layoutX="294.0" layoutY="92.0" prefHeight="39.0" prefWidth="318.0" text="Welcome to Katros Library" textAlignment="CENTER" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
